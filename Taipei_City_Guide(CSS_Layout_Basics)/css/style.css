@@ -1,0 +1,333 @@
+
+
+/*
+================================================================================================================================
+
+	BASE CSS STYLES
+
+	/From Google Fonts API
+
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Taviraj', serif;
+
+================================================================================================================================================================
+
+*/
+
+
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: rgba(4,119,169,1);
+}
+
+
+header,footer, .banner{
+	width:100%;
+	text-align: center;
+}
+
+header{
+	
+	background-color: rgba(137,7,38,1);
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+}
+
+header h4{
+
+}
+
+.container{
+	width:95%;
+	margin: 0 auto;
+}
+
+.clearfix::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+/*
+================================================================================================================================
+
+	MAIN NAVIGATION BAR STYLES
+
+================================================================================================================================================================
+
+*/
+
+
+	.main-nav-title, .main-nav li{
+		display: block;
+		text-align: center;
+		padding: 10px 15px;
+
+	}
+
+	.main-nav-title{
+
+		text-shadow: 2px 2px 2px rgba(4,119,169,1);
+		margin: 0;
+		font-size: 2em;
+
+	}
+
+	.main-nav{
+		padding-top: 1em;
+	}
+
+	.main-nav li{
+
+		color: white;
+		font-size: 2em;
+		letter-spacing: 0.2em;
+
+		text-shadow: 2px 2px 2px rgba(4,119,169,1);
+		
+
+	}
+
+
+
+
+/*
+================================================================================================================================
+
+	BASIC BANNER STYLES
+
+================================================================================================================================================================
+
+*/
+
+.banner{
+	text-align: center;
+	padding: 3em 0;
+	background-color: rgba(78,178,240,1);
+	color: rgba(89,84,14,1);
+	margin-bottom: 1em;
+
+}
+
+
+.banner-element{
+	display: block;
+}
+
+#banner-img{
+	display: inline-block;
+	border-radius: 50%;
+	border-width: 4px;
+	border-style: solid;
+	border-color: rgba(89,84,14,1);
+
+}
+
+#banner-heading{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 2em;
+	line-height: .4em;
+}
+
+
+#banner-subheading{
+	font-family: 'Taviraj', serif;
+
+}
+
+
+
+
+/*
+================================================================================================================================
+
+	MAIN CONTENT STYLING 
+
+================================================================================================================================================================
+
+*/
+
+
+	.wrapper{
+		margin-bottom: 0.5em;
+	}
+
+	.col{
+		float:left;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+
+	.col-primary{
+		width: 100%;
+	}
+
+
+
+
+	.col-secondary{
+		width: 100%;
+
+	}
+
+	.col-tertiary{
+		width: 100%;
+
+	}
+
+	.section-img-container{
+		width: 100%;
+		padding: 1em;
+	}
+
+	.col-secondary .section-img-container img{
+		width: 100%;
+		height: auto;
+	}
+
+	.section-title{
+
+		font-family: 'Raleway', sans-serif;
+		font-weight: bolder;
+		font-size: 2em;
+		color: white;
+		text-shadow: 5px 5px 5px rgba(137,7,38,1);
+
+	}
+
+	.section-text{
+
+		font-family: 'Taviraj', serif;
+		color: white;
+	}
+
+
+/*
+================================================================================================================================
+
+	BASE FOOTER STYLING
+
+================================================================================================================================================================
+
+*/
+
+footer{
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+/*
+================================================================================================================================
+
+	MEDIA QUERIES
+
+================================================================================================================================================================
+
+*/
+
+
+@media screen and (max-width: 769px){
+	#banner-img{
+		max-width: 80%;
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 769px){
+
+
+	.main-nav-title, .main-nav li{
+		display: inline-block;
+		text-align: center;
+		padding: 5px 10px;
+
+	}
+
+	.main-nav-title{
+		float: left;
+		font-size: 1.5em;
+
+	}
+
+	.main-nav{
+		margin-top: -0.7em;
+		float: right;
+	}
+
+	.main-nav li{
+		float: left;
+		font-size: 1em;
+		
+	}
+
+
+
+
+	#banner-heading{
+		font-size: 3em;
+	}
+
+	.container{
+		width:90%;
+	}
+
+
+
+	.col-primary{
+		width: 50%;
+	}
+
+	.col-secondary{
+		width: 50%;
+
+	}
+
+	.col-tertiary{
+		width: 100%;
+
+	}
+
+}
+
+
+@media screen and (min-width: 1024px){
+
+	#banner-heading{
+		font-size: 5em;
+	}
+
+	.container{
+		width: 85%;
+	}
+
+
+	.col-primary{
+		width: 25%;
+	}
+
+	#col-primary-extra-text{
+	visibility: hidden;
+	}
+
+	.col-secondary{
+		width: 50%;
+
+	}
+
+	.col-tertiary{
+		width: 25%;
+
+	}
+
+	.main-nav li{
+		font-size: 1.5em;
+		}
+
+}

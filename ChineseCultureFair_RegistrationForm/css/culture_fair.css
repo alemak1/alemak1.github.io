@@ -1,0 +1,157 @@
+
+/* Main content wrapper */
+#main-wrapper{
+
+	padding-top: 2em;
+}
+
+.btn,
+.active{
+	transition: .4s;
+}
+/* Header/navbar styling */
+
+#brand-link{
+	margin-right: 0;
+}
+
+.navbar .navbar-brand{
+	color:rgba(255,255,255,.85);
+	font-size: 1rem;
+	padding-top: .45rem;
+}
+
+
+
+/* Jumbotron */
+
+
+.jumbotron{
+	background: url(../img/characters1.jpeg);
+	background-size: cover;
+}
+
+#jumbotron-top{
+	margin-top: 3em;
+	font-family: Verdana;
+	background-color: #fff8b2;
+	color: gold;
+	text-shadow: 1px 1px 1px black;
+}
+
+#jumbotron-btn-grp{
+	margin-top: 1em;
+}
+
+/* About section */
+#about-img{
+	margin-bottom: 1em;
+	border-radius: 5%;
+}
+
+
+
+.about-col-title{
+	margin-bottom: 1em;
+}
+
+
+/* Common styling for Event and Schedule sections */
+.section-title{
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+}
+
+
+
+/*Callout Button*/
+
+#callout-btn{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+/* FOOTER */
+
+#footer{
+	border-top-color: grey;
+	border-top-style: solid;
+	border-top-width: 2px;
+
+
+}
+
+#footer-row{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#signature-box{
+	padding-top: 1em;
+}
+
+#club-signature{
+	margin-right: 1em;
+}
+.footer-col-title{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+
+/* Form styling */
+
+.form-title{
+	margin-bottom: 1em;
+}
+
+.hr-form{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.form-topics-title{
+	margin-bottom: 1em;
+}
+
+
+/* Use media queries to adjust height/width, margin/padding for cards, since images are not of uniform size */
+
+@media (max-width: 768px){
+	 .event-card{
+	width: 30em;
+	height: 60em;
+	margin-right: -1em;
+	margin-bottom: -20em;
+	}
+
+}
+
+@media (min-width: 768px){
+	  .event-card{
+	width: 22em;
+	height: 40em;
+	margin-bottom: -5em;
+	margin-right: -1em;
+
+	}
+}
+@media (min-width: 992px){
+  .event-card{
+	width: 30em;
+	height: 45em;
+	margin-right: -1em;
+	}
+}
+
+@media (min-width: 1200px){
+  .event-card{
+	width: 23em;
+	max-height: 33em;
+	margin-right: -1em;
+	}
+}
+
+

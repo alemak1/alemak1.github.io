@@ -1,0 +1,33 @@
+/* ================================= 
+  Button Transitions
+==================================== */
+
+.button {
+	color: #fff;
+	background: #4a89ca;
+	transition-property: border-radius,background;
+	transition-duration: 1s;
+}
+
+.button:hover {
+	background: #d36a62;
+	border-radius: 1em;
+}
+
+.button:active{
+	background: #a33830;
+}
+
+
+/* dimensions specified for each photograph based on aspect ratio; all heights are set to a maximum of 20em */
+#kimono-girl-amazed{
+	width:7em;
+}
+
+#big-lantern{
+	width: 13.3em;
+}
+
+/* ================================= 
+  Photo Overlay Transitions
+==================================== */
