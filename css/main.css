@@ -1,8 +1,11 @@
 
+*{
+	box-sizing: border-box;
+}
 
 #about-box{
 	margin-top: -2em;
-	margin-left: -1em;
+	margin-left: 2em;
 }
 
 
@@ -12,6 +15,10 @@
 
 .secondary-row{
 	margin-bottom: .5em;
+}
+
+.thumbnail{
+	padding-top: 10px;
 }
 
 img{
