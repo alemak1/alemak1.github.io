@@ -13,6 +13,6 @@
 }
 
 img{
-	height:50px;
+	max-height:10em;
 	width: auto;
 }
