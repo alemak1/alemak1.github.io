@@ -37,6 +37,10 @@ p {
 	margin: 0 0 1.5em;
 }
 
+header img{
+	width: 40px;
+	height: auto;
+}
 /* ================================= 
   Base Layout Styles
 ==================================== */
