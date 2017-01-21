@@ -9,19 +9,78 @@
 }
 
 
-.header-row{
-	margin-bottom: 1em;
-}
-
-.secondary-row{
-	margin-bottom: .5em;
-}
-
 .thumbnail{
-	padding-top: 10px;
+	padding: 2em;
 }
+
+
+.main-wrapper{
+	margin: 0 auto;
+}
+
+
 
 img{
 	max-height:10em;
 	width: auto;
+	margin-top: 1em;
 }
+
+#lantern-pic{
+	border-radius: 10%;
+}
+
+
+#taipei-pic{
+	border-radius: 10%;
+
+}
+
+#taiwan-national-museum{
+	border-radius: 10%;
+}
+
+/** Media Queries **/
+@media (min-width: 400px){
+	.thumbnail{
+		float: none;
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.header-row,.row{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#list-group-box{
+		width:95%;
+		margin-left: 3em;
+	}
+
+	#about-box{
+		margin-right: 2em;
+	}
+
+}
+
+@media (min-width: 730px){
+	.thumbnail{
+		float: left;
+		margin-left: 3em;
+		width: 40%;
+
+	}
+
+	
+}
+
+@media (min-width: 900px){
+	.thumbnail{
+		margin-left: 3em;
+		width: 45%;
+
+	}
+}
+
